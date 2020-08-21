@@ -1,188 +1,23 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="None">
-        
-        
-        <link rel="shortcut icon" href="img/favicon.ico">
-        <title>Home ...</title>
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-        <link href="css/font-awesome.min.css" rel="stylesheet">
-        <link href="css/base.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
-
-        <script src="js/jquery-1.10.2.min.js" defer></script>
-        <script src="js/bootstrap.min.js" defer></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
-        <script>hljs.initHighlightingOnLoad();</script> 
-    </head>
-
-    <body class="homepage">
-        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
-            <div class="container">
-                <a class="navbar-brand" href=".">Home ...</a>
-                <!-- Expander button -->
-                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <!-- Expanded navigation -->
-                <div id="navbar-collapse" class="navbar-collapse collapse">
-                        <!-- Main navigation -->
-                        <ul class="nav navbar-nav">
-                            <li class="dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Raspberry Pi <b class="caret"></b></a>
-                                <ul class="dropdown-menu">
-                                    
-<li>
-    <a href="RaspberryPi/1-Install/" class="dropdown-item">Install</a>
-</li>
-                                </ul>
-                            </li>
-                            <li class="navitem">
-                                <a href="about/" class="nav-link">About</a>
-                            </li>
-                        </ul>
-
-                    <ul class="nav navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
-                                <i class="fa fa-search"></i> Search
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-        <div class="container">
-            <div class="row">
-                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
-    <div class="navbar-header">
-        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
-            <span class="fa fa-angle-down"></span>
-        </button>
-    </div>
-
-    
-    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
-        <ul class="nav flex-column">
-            
-            <li class="nav-item" data-level="1"><a href="#home" class="nav-link">Home ...</a>
-              <ul class="nav flex-column">
-            <li class="nav-item" data-level="2"><a href="#table-of-contents" class="nav-link">Table of contents</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-level="2"><a href="#site-documentation" class="nav-link">Site Documentation</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-              </ul>
-            </li>
-        </ul>
-    </div>
-</div></div>
-                    <div class="col-md-9" role="main">
-
-<h1 id="home">Home ...</h1>
-<p>Documentation of my personal projects.</p>
-<h2 id="table-of-contents">Table of contents</h2>
-<ul>
-<li>Raspberry Pi<ul>
-<li><a href="RaspberryPi/1-Install/" title="How prepare RPi">Install</a></li>
-</ul>
-</li>
-</ul>
-<h2 id="site-documentation">Site Documentation</h2>
-<ul>
-<li><code>Raspberry Pi</code> - everything about RPi from first preparation to some projects</li>
-</ul></div>
-            </div>
-        </div>
-
-        <footer class="col-md-12">
-            <hr>
-            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
-        </footer>
-        <script>
-            var base_url = ".",
-                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
-        </script>
-        <script src="js/base.js" defer></script>
-        <script src="search/main.js" defer></script>
-
-        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h4 class="modal-title" id="searchModalLabel">Search</h4>
-                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-            </div>
-            <div class="modal-body">
-                <p>
-                    From here you can search these documents. Enter
-                    your search terms below.
-                </p>
-                <form>
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
-                    </div>
-                </form>
-                <div id="mkdocs-search-results"></div>
-            </div>
-            <div class="modal-footer">
-            </div>
-        </div>
-    </div>
-</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
-                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-            </div>
-            <div class="modal-body">
-              <table class="table">
-                <thead>
-                  <tr>
-                    <th style="width: 20%;">Keys</th>
-                    <th>Action</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td class="help shortcut"><kbd>?</kbd></td>
-                    <td>Open this help</td>
-                  </tr>
-                  <tr>
-                    <td class="next shortcut"><kbd>n</kbd></td>
-                    <td>Next page</td>
-                  </tr>
-                  <tr>
-                    <td class="prev shortcut"><kbd>p</kbd></td>
-                    <td>Previous page</td>
-                  </tr>
-                  <tr>
-                    <td class="search shortcut"><kbd>s</kbd></td>
-                    <td>Search</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-            <div class="modal-footer">
-            </div>
-        </div>
-    </div>
-</div>
-
-    </body>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="generator" content="Docusaurus v2.0.0-alpha.61">
+<title data-react-helmet="true">Hello from TritoXid | TritoXid</title><meta data-react-helmet="true" property="og:title" content="Hello from TritoXid | TritoXid"><meta data-react-helmet="true" name="description" content="Description will go into a meta tag in &lt;head /&gt;"><meta data-react-helmet="true" property="og:description" content="Description will go into a meta tag in &lt;head /&gt;"><meta data-react-helmet="true" name="twitter:card" content="summary_large_image"><link data-react-helmet="true" rel="shortcut icon" href="/img/TritoXid.ico"><link rel="stylesheet" href="/styles.3d6ab4bf.css">
+<link rel="preload" href="/styles.be8388d0.js" as="script">
+<link rel="preload" href="/runtime~main.1fb526c7.js" as="script">
+<link rel="preload" href="/main.96f69867.js" as="script">
+<link rel="preload" href="/common.f5982219.js" as="script">
+<link rel="preload" href="/c4f5d8e4.7e8abc19.js" as="script">
+</head>
+<body>
+<script>!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}var e=function(){var t=null;try{t=localStorage.getItem("theme")}catch(t){}return t}();t(null!==e?e:"light")}()</script><div id="__docusaurus">
+<nav class="navbar navbar--light navbar--fixed-top"><div class="navbar__inner"><div class="navbar__items"><div aria-label="Navigation bar toggle" class="navbar__toggle" role="button" tabindex="0"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" role="img" focusable="false"><title>Menu</title><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></div><a class="navbar__brand" href="/"><img class="navbar__logo" src="/img/TritoXid.svg" alt="TritoXid Logo"><strong class="navbar__title">TritoXid Wiki</strong></a><a class="navbar__item navbar__link" href="/docs/home">Docs</a></div><div class="navbar__items navbar__items--right"><a href="https://github.com/TritoXid" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">GitHub</a><div class="react-toggle react-toggle--disabled displayOnlyInLargeViewport_2aTZ"><div class="react-toggle-track"><div class="react-toggle-track-check"><span class="toggle_BsTx">🌜</span></div><div class="react-toggle-track-x"><span class="toggle_BsTx">🌞</span></div></div><div class="react-toggle-thumb"></div><input type="checkbox" disabled="" aria-label="Dark mode toggle" class="react-toggle-screenreader-only"></div><div class="navbar__search"><span aria-label="expand searchbar" role="button" class="search-icon" tabindex="0"></span><input type="search" id="search_input_react" placeholder="Search" aria-label="Search" class="navbar__search-input search-bar"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div><div class="navbar-sidebar"><div class="navbar-sidebar__brand"><a class="navbar__brand" href="/"><img class="navbar__logo" src="/img/TritoXid.svg" alt="TritoXid Logo"><strong class="navbar__title">TritoXid Wiki</strong></a></div><div class="navbar-sidebar__items"><div class="menu"><ul class="menu__list"><li class="menu__list-item"><a class="menu__link" href="/docs/home">Docs</a></li><li class="menu__list-item"><a href="https://github.com/TritoXid" target="_blank" rel="noopener noreferrer" class="menu__link">GitHub</a></li></ul></div></div></div></nav><div class="main-wrapper"><header class="hero hero--primary heroBanner_2Ftp"><div class="container"><h1 class="hero__title">TritoXid</h1><p class="hero__subtitle">The tagline of my site</p><div class="buttons_1Wc3"><a class="button button--outline button--secondary button--lg" href="/docs/home">Get Started</a></div></div></header><main><section class="features_P2SU"><div class="container"><div class="row"><div class="col col--4"><div class="text--center"><img class="featureImage_3Xqx" src="/img/undraw_docusaurus_mountain.svg" alt="[object Object]"></div><h3>Easy to Use</h3><p>Docusaurus was designed from the ground up to be easily installed and used to get your website up and running quickly.</p></div><div class="col col--4"><div class="text--center"><img class="featureImage_3Xqx" src="/img/undraw_docusaurus_tree.svg" alt="[object Object]"></div><h3>Focus on What Matters</h3><p>Docusaurus lets you focus on your docs, and we&#x27;ll do the chores. Go ahead and move your docs into the <code>docs</code> directory.</p></div><div class="col col--4"><div class="text--center"><img class="featureImage_3Xqx" src="/img/undraw_docusaurus_react.svg" alt="[object Object]"></div><h3>Powered by React</h3><p>Extend or customize your website layout by reusing React. Docusaurus can be extended while reusing the same header and footer.</p></div></div></div></section></main></div><footer class="footer footer--dark"><div class="container"><div class="text--center"><div>Copyright © 2020 TritoXid, Inc. Built with Docusaurus.</div></div></div></footer></div>
+<script src="/styles.be8388d0.js"></script>
+<script src="/runtime~main.1fb526c7.js"></script>
+<script src="/main.96f69867.js"></script>
+<script src="/common.f5982219.js"></script>
+<script src="/c4f5d8e4.7e8abc19.js"></script>
+</body>
 </html>
-
-<!--
-MkDocs version : 1.1
-Build Date UTC : 2020-07-18 22:18:03
--->
